@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\DemoProducts.csproj": {}
+    "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\DemoProducts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\DemoProducts.csproj": {
+    "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\DemoProducts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\DemoProducts.csproj",
+        "projectUniqueName": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\DemoProducts.csproj",
         "projectName": "DemoProducts",
-        "projectPath": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\DemoProducts.csproj",
-        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\obj\\",
+        "projectPath": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\DemoProducts.csproj",
+        "packagesPath": "C:\\Users\\LOFT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LOFT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,34 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

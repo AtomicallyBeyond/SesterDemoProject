@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UQqSdu9BluWV2GvzZPH6ZkCTFKFr0Tb/rN26v5c/GbM=",
+  "Hash": "t6AOAPR2JSheEAjggHFYLpSMEwaq8V0n2S8hwN0tTTc=",
   "Source": "DemoProducts",
   "BasePath": "_content/DemoProducts",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DemoProducts\\wwwroot",
       "Source": "DemoProducts",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DemoProducts.styles.css",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DemoProducts.styles.css",
       "SourceId": "DemoProducts",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "DemoProducts.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DemoProducts.styles.css"
+      "OriginalItemSpec": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DemoProducts.styles.css"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DemoProducts.bundle.scp.css",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DemoProducts.bundle.scp.css",
       "SourceId": "DemoProducts",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "DemoProducts.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DemoProducts.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DemoProducts.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\css\\site.css",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\favicon.ico",
       "SourceId": "DemoProducts",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\David\\RiderProjects\\DemoSolution\\DemoProducts\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\wwwroot\\",
       "BasePath": "_content/DemoProducts",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
