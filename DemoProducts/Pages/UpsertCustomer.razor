@@ -15,8 +15,8 @@
 }
 else
 {
-    <div class="row p-2 col-4 bg-light">
-        <EditForm Model="Customer" id="my-form-ref" OnValidSubmit="@UpdateInsertCustomer">
+    <div class="form-group p-2 col-4 bg-light">
+        <EditForm Model="Customer" OnValidSubmit="@UpdateInsertCustomer">
             <DataAnnotationsValidator/>
             @*<ValidationSummary/>*@
             <div >
@@ -24,45 +24,45 @@ else
                 <h5 class="card-title text-secondary">Customer Info</h5>
                 <hr/>
 
-                <label>Company name</label>
-                <InputText @bind-Value="Customer.CompanyName" class="form-control"></InputText>
+                <label for="CompanyName">Company name</label>
+                <InputText Id="CompanyName" @bind-Value="Customer.CompanyName" class="form-control"></InputText>
                 <ValidationMessage For="() => Customer.CompanyName"></ValidationMessage>
 
-                <label>Contact name</label>
-                <InputText @bind-Value="Customer.ContactName" class="form-control"></InputText>
+                <label for="ContactName">Contact name</label>
+                <InputText Id="ContactName" @bind-Value="Customer.ContactName" class="form-control"></InputText>
                 <ValidationMessage For="() => Customer.ContactName"></ValidationMessage>
 
-                <label>Phone number</label>
-                <InputText @bind-Value="Customer.PhoneNumber" class="form-control"></InputText>
+                <label for="PhoneNumber">Phone number</label>
+                <InputText Id="PhoneNumber" @bind-Value="Customer.PhoneNumber" class="form-control"></InputText>
                 <ValidationMessage For="() => Customer.PhoneNumber"></ValidationMessage>
 
-                <label>Email addres</label>
-                <InputText @bind-Value="Customer.EmailAddress" class="form-control"></InputText>
-                <ValidationMessage For="() => Customer.EmailAddress"></ValidationMessage>
+                <label for="Email">Email addres</label>
+                <InputText Id="Email" @bind-Value="Customer.EmailAddress" class="form-control"></InputText>
 
                 <br/>
 
                 <h5 class="card-title text-secondary">Address</h5>
                 <hr/>
-                <label>Steet</label>
-                <InputText @bind-Value="Customer.Street" class="form-control"></InputText>
+                <label for="Street">Steet</label>
+                <InputText Id="Street" @bind-Value="Customer.Street" class="form-control"></InputText>
                 <ValidationMessage For="() => Customer.Street"></ValidationMessage>
 
-                <label>City</label>
-                <InputText @bind-Value="Customer.City" class="form-control"></InputText>
+                <label for="City">City</label>
+                <InputText Id="City" @bind-Value="Customer.City" class="form-control"></InputText>
                 <ValidationMessage For="() => Customer.City"></ValidationMessage>
 
-                <label>State</label>
-                <InputText @bind-Value="Customer.State" class="form-control"></InputText>
+                <label for="State">State</label>
+                <InputText Id="State" @bind-Value="Customer.State" class="form-control"></InputText>
                 <ValidationMessage For="() => Customer.State"></ValidationMessage>
 
-                <label>Zip Code</label>
-                <InputText @bind-Value="Customer.ZipCode" class="form-control"></InputText>
+                <label for="ZipCode">Zip Code</label>
+                <InputText Id="ZipCode" @bind-Value="Customer.ZipCode" class="form-control"></InputText>
                 <ValidationMessage For="() => Customer.ZipCode"></ValidationMessage>
                 
             </div>
             <div class="form-group mt-2">
-                <button class="btn btn-primary" type="submit" form="my-for-ref">Create</button>
+                <button class="btn btn-primary">Create</button>
+                @*<button class="btn btn-dark">Submit</button>*@
                 <NavLink href="customer" class="btn btn-secondary">Cancel</NavLink>
             </div>
         </EditForm>

@@ -151,3 +151,5 @@ C:\Users\David\RiderProjects\SesterDemoProject\DemoProducts\obj\Debug\net6.0\ref
 C:\Users\David\RiderProjects\SesterDemoProject\DemoProducts\obj\Debug\net6.0\DemoProducts.pdb
 C:\Users\David\RiderProjects\SesterDemoProject\DemoProducts\obj\Debug\net6.0\DemoProducts.genruntimeconfig.cache
 C:\Users\David\RiderProjects\SesterDemoProject\DemoProducts\obj\Debug\net6.0\ref\DemoProducts.dll
+C:\Users\LOFT\RiderProjects\SesterDemoProject\DemoProducts\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\LOFT\RiderProjects\SesterDemoProject\DemoProducts\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
