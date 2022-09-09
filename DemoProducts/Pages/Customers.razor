@@ -1,0 +1,18 @@
+@page "/customers"
+@using DemoProducts.Data
+
+@inject NavigationManager _NavigationManager
+
+<span>
+    <button class="btn btn-primary mr-auto" @onclick="showNewCustomerDialog">Create Customer</button>
+</span>
+
+
+@code {
+    private IEnumerable<CustomerDto> CustomerList { get; set; } = new List<CustomerDto>();
+
+    protected void showNewCustomerDialog()
+    {
+        _NavigationManager.NavigateTo("newcustomer");
+    }
+}

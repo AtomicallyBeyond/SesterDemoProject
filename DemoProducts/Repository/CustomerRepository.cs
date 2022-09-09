@@ -1,5 +1,6 @@
 using AutoMapper;
 using DemoProducts.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace DemoProducts.Repository;
 
@@ -16,39 +17,39 @@ public class CustomerRepository : ICustomerRepository
         _mapper = mapper;
     }
 
-    public CustomerDto Create(CustomerDto objDto)
+    public async Task<CustomerDto> Create(CustomerDto objDto)
     {
         var customer = _mapper.Map<CustomerDto, Customer>(objDto);
 
-        _db.Customers.Add(customer);
-        _db.SaveChanges();
+        var addedCustomer = _db.Customers.Add(customer);
+        await _db.SaveChangesAsync();
 
-        return _mapper.Map<Customer, CustomerDto>(customer);
+        return _mapper.Map<Customer, CustomerDto>(addedCustomer.Entity);
     }
 
-    public int Update(CustomerDto objDto)
+    public async Task<int> Update(CustomerDto objDto)
     {
-        var customer = _mapper.Map<CustomerDto, Customer>(objDto);
+        var customer =  _mapper.Map<CustomerDto, Customer>(objDto);
 
         _db.Customers.Update(customer);
-        return _db.SaveChanges();
+        return await _db.SaveChangesAsync();
     }
 
-    public int Delete(int id)
+    public async Task<int> Delete(int id)
     {
-        var obj = _db.Customers.FirstOrDefault(u => u.Id == id);
+        var obj = await _db.Customers.FirstOrDefaultAsync(u => u.Id == id);
 
-        if (obj != null)
+        if (obj == null)
         {
-            _db.Customers.Remove(obj);
-            return _db.SaveChanges();
+            return 0;
         }
-        return 0;
+        _db.Customers.Remove(obj);
+        return await _db.SaveChangesAsync();
     }
 
-    public CustomerDto Get(int id)
+    public async Task<CustomerDto> Get(int id)
     {
-        var obj = _db.Customers.FirstOrDefault(u => u.Id == id);
+        var obj = await _db.Customers.FirstOrDefaultAsync(u => u.Id == id);
 
         if (obj != null)
         {
@@ -58,7 +59,7 @@ public class CustomerRepository : ICustomerRepository
         return new CustomerDto();
     }
 
-    public IEnumerable<CustomerDto> GetAll()
+    public async Task<IEnumerable<CustomerDto>> GetAll()
     {
         return _mapper.Map<IEnumerable<Customer>, IEnumerable<CustomerDto>>(_db.Customers);
     }
