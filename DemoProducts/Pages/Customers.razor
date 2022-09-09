@@ -1,18 +1,30 @@
 @page "/customers"
 @using DemoProducts.Data
 
-@inject NavigationManager _NavigationManager
-
 <span>
-    <button class="btn btn-primary mr-auto" @onclick="showNewCustomerDialog">Create Customer</button>
+    <button class="btn btn-primary mr-auto" @onclick="() => ShowCustomerDialog()">Create Customer</button>
 </span>
 
+<br/>
+
+@if (_showDialog)
+{
+    <_CustomerDialog OnClose="@CloseCustomerDialog"></_CustomerDialog>
+}
 
 @code {
+
+    private bool _showDialog = false;
     private IEnumerable<CustomerDto> CustomerList { get; set; } = new List<CustomerDto>();
 
-    protected void showNewCustomerDialog()
+    private void ShowCustomerDialog()
     {
-        _NavigationManager.NavigateTo("/upsertcustomer");
+        _showDialog = true;
     }
+
+    private void CloseCustomerDialog()
+    {
+        _showDialog = false;
+    }
+
 }

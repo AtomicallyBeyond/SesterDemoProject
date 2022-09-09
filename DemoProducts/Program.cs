@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
 using DemoProducts.Data;
 using DemoProducts.Repository;
 using Microsoft.EntityFrameworkCore;
