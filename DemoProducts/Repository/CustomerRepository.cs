@@ -29,9 +29,20 @@ public class CustomerRepository : ICustomerRepository
 
     public async Task<int> Update(CustomerDto objDto)
     {
-        var customer =  _mapper.Map<CustomerDto, Customer>(objDto);
-
-        _db.Customers.Update(customer);
+        var objFromDb = await _db.Customers.FirstOrDefaultAsync(u => u.Id == objDto.Id);
+        
+        if (objFromDb == null)
+            return 0;
+        
+        objFromDb.CompanyName = objDto.CompanyName;
+        objFromDb.ContactName = objDto.ContactName;
+        objFromDb.PhoneNumber = objDto.PhoneNumber;
+        objFromDb.EmailAddress = objDto.EmailAddress;
+        objFromDb.Street = objDto.Street;
+        objFromDb.City = objDto.City;
+        objFromDb.State = objDto.State;
+        objFromDb.ZipCode = objDto.ZipCode;
+        _db.Customers.Update(objFromDb);
         return await _db.SaveChangesAsync();
     }
 
@@ -40,9 +51,8 @@ public class CustomerRepository : ICustomerRepository
         var obj = await _db.Customers.FirstOrDefaultAsync(u => u.Id == id);
 
         if (obj == null)
-        {
             return 0;
-        }
+        
         _db.Customers.Remove(obj);
         return await _db.SaveChangesAsync();
     }
@@ -51,12 +61,10 @@ public class CustomerRepository : ICustomerRepository
     {
         var obj = await _db.Customers.FirstOrDefaultAsync(u => u.Id == id);
 
-        if (obj != null)
-        {
-            return _mapper.Map<Customer, CustomerDto>(obj);
-        }
-
-        return new CustomerDto();
+        if (obj == null)
+            return new CustomerDto();
+        
+        return _mapper.Map<Customer, CustomerDto>(obj);
     }
 
     public async Task<IEnumerable<CustomerDto>> GetAll()
