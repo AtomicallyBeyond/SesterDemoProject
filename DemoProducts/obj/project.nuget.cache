@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "ieLSAyngcs5G3+afwLfPsStucvfT4YJW1ke0Wq4zaCUfp93PewG7kEqP8fgYW6lukHACA3CgxogWZHSlmUXRHw==",
+  "dgSpecHash": "ejMnOc2avzVQcLoTtLRAJPbamxasE/DVgiwJh6z66Pn//9GUwPhUqSWOCGUulTifHaGaILK4h9sgwarTWYiJIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\David\\RiderProjects\\SesterDemoProject\\DemoProducts\\DemoProducts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0\\microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.0\\microsoft.aspnetcore.components.6.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.0\\microsoft.aspnetcore.components.analyzers.6.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.0\\microsoft.aspnetcore.components.forms.6.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.0\\microsoft.aspnetcore.components.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.0\\microsoft.aspnetcore.metadata.6.0.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -32,6 +38,7 @@
     "C:\\Users\\David\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.8.0\\microsoft.identitymodel.protocols.6.8.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.8.0\\microsoft.identitymodel.protocols.openidconnect.6.8.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.jsinterop\\6.0.0\\microsoft.jsinterop.6.0.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
@@ -40,6 +47,7 @@
     "C:\\Users\\David\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.io.pipelines\\6.0.0\\system.io.pipelines.6.0.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
@@ -48,7 +56,8 @@
     "C:\\Users\\David\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\David\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\David\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\tinymce.blazor\\1.0.4\\tinymce.blazor.1.0.4.nupkg.sha512"
   ],
   "logs": []
 }

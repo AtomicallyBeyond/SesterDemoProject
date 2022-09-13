@@ -23,5 +23,5 @@ public class CustomerDto
     public string ZipCode { get; set; } = "";
 
 
-    public string Notes { get; set; } = "";
+    public string CustomerNotes { get; set; } = "";
 }

@@ -1,0 +1,109 @@
+@page "/Customer/Notes"
+@page "/Customer/Notes/{customerid:int}"
+@using DemoProducts.Repository
+@using DemoProducts.Data
+
+@inject ICustomerRepository CustomerRepository
+@inject NavigationManager NavigationManager
+
+@if (IsLoading)
+{
+    <div class="text-center">
+        <img src="/images/loading.gif" alt="loading">
+    </div>
+}
+else
+{
+    <div class="border">
+        <div class="card-header">
+            <div class="row-fluid">
+                <h4 style="display: inline-block">@customer.CompanyName</h4>
+                <button class="btn btn-secondary" style="float: right" @onclick="NavigateToCustomers">Cancel</button>
+                <button class="btn btn-primary" style="float: right" @onclick="UpdateCustomer">Save Notes</button>
+            </div>
+        </div>
+        <div class="card-body">
+            Contact Name: <span> @customer.ContactName</span> <br/>
+            Phone Number: <span> @customer.PhoneNumber</span> <br/>
+            Email Address: <span> @customer.EmailAddress</span> <br/>
+        </div>
+        <div class="card-footer">
+        </div>
+    </div>
+
+
+    <div id="editor" style="min-height: 800px">
+        <Editor
+            @bind-Value=content
+            CloudChannel="5"
+            Conf="@editorConf">
+        </Editor>
+    </div>
+
+    @*<div class="dotted-lines">
+        <textarea @bind=content @bind:event="oninput"></textarea>
+    </div>*@
+}
+
+@code {
+
+    [Parameter]
+    public int CustomerID { get; set; } = -1;
+
+    private CustomerDto customer = new CustomerDto();
+    private bool IsLoading { get; set; }
+    private string content = "";
+
+    private readonly Dictionary<string, object> editorConf = new Dictionary<string, object>
+    {
+        { "height", "600" },
+        { "menubar", true },
+        { "plugins", "link image code" },
+        {
+            "toolbar", "undo redo | styleselect | forecolor | bold italic" +
+                       " | alignleft aligncenter alignright alignjustify |" +
+                       " outdent indent | link image | code"
+        }
+    };
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            if (CustomerID == -1)
+            {
+    //create
+                IsLoading = true;
+                StateHasChanged();
+            }
+            else
+            {
+    //update
+                await LoadCustomer();
+            }
+        }
+    }
+
+    private async Task LoadCustomer()
+    {
+        IsLoading = true;
+        StateHasChanged();
+        customer = await CustomerRepository.GetAsync(CustomerID);
+        content = customer.CustomerNotes;
+        IsLoading = false;
+        StateHasChanged();
+    }
+
+    private async Task UpdateCustomer()
+    {
+        customer.CustomerNotes = content;
+        await CustomerRepository.UpdateAsync(customer);
+        NavigateToCustomers();
+    }
+
+    private void NavigateToCustomers()
+    {
+        NavigationManager.NavigateTo("customers");
+    }
+
+}

@@ -3,6 +3,7 @@
 @using DemoProducts.Repository
 
 @inject ICustomerRepository CustomerRepository
+@inject NavigationManager NavigationManager
 
 
 <button class="btn btn-primary mr-auto" @onclick="() => ShowCustomerDialog(0)">+Add Customer</button>
@@ -46,8 +47,9 @@ else
                     <td>@customer.EmailAddress</td>
                     <td word-wrap:break-word>@tempAddress</td>
                     <td>
-                        <button class="btn btn-secondary" @onclick="() => { ShowCustomerDialog(customer.Id);}">Edit</button>
-                        <button class="btn btn-danger" @onclick="() => { ShowDeleteDialog(customer.Id);}">Delete</button>
+                        <button class="btn btn-primary" @onclick="() => { ShowCustomerNotes(customer.Id); }">View Notes</button>
+                        <button class="btn btn-secondary" @onclick="() => { ShowCustomerDialog(customer.Id); }">Edit</button>
+                        <button class="btn btn-danger" @onclick="() => { ShowDeleteDialog(customer.Id); }">Delete</button>
                     </td>
                 </tr>
             }
@@ -72,6 +74,10 @@ else if (showDeleteDialog)
         >
     </_ConfirmDialog>
 }
+else if (showCustomerNotes)
+{
+    <_CustomerNotes></_CustomerNotes>
+}
 
 @code {
 
@@ -79,6 +85,7 @@ else if (showDeleteDialog)
     private string tempAddress = "";
     private bool showCustomerDialog = false;
     private bool showDeleteDialog = false;
+    private bool showCustomerNotes = false;
     private bool isLoading { get; set; }
     private IEnumerable<CustomerDto> CustomerList { get; set; } = new List<CustomerDto>();
 
@@ -129,6 +136,11 @@ else if (showDeleteDialog)
             await CustomerRepository.DeleteAsync(currentId);
         
         CloseDeleteDialog();
+    }
+
+    private void ShowCustomerNotes(int id)
+    {
+        NavigationManager.NavigateTo($"Customer/Notes/{id}");
     }
 
 }

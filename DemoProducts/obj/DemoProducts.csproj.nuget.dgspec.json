@@ -65,6 +65,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.7, )"
+            },
+            "TinyMCE.Blazor": {
+              "target": "Package",
+              "version": "[1.0.4, )"
             }
           },
           "imports": [

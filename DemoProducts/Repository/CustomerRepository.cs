@@ -42,6 +42,7 @@ public class CustomerRepository : ICustomerRepository
         objFromDb.City = objDto.City;
         objFromDb.State = objDto.State;
         objFromDb.ZipCode = objDto.ZipCode;
+        objFromDb.CustomerNotes = objDto.CustomerNotes;
         _db.Customers.Update(objFromDb);
         return await _db.SaveChangesAsync();
     }

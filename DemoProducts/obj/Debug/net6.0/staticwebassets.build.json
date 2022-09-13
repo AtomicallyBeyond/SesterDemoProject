@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aP0g8RFWyNBGBw40R683Qs8REA6rRm4srC+LOTKLYVA=",
+  "Hash": "4fIAmi8F0oWrf8nskZqGTHUomOb6Y+dMDI23VRi7xsk=",
   "Source": "DemoProducts",
   "BasePath": "_content/DemoProducts",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\David\\.nuget\\packages\\tinymce.blazor\\1.0.4\\staticwebassets\\tinymce-blazor.js",
+      "SourceId": "TinyMCE.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\David\\.nuget\\packages\\tinymce.blazor\\1.0.4\\staticwebassets\\",
+      "BasePath": "_content/TinyMCE.Blazor",
+      "RelativePath": "tinymce-blazor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\David\\.nuget\\packages\\tinymce.blazor\\1.0.4\\staticwebassets\\tinymce-blazor.js"
+    },
+    {
+      "Identity": "C:\\Users\\David\\.nuget\\packages\\tinymce.blazor\\1.0.4\\staticwebassets\\TinyMce.Blazor.lib.module.js",
+      "SourceId": "TinyMCE.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\David\\.nuget\\packages\\tinymce.blazor\\1.0.4\\staticwebassets\\",
+      "BasePath": "_content/TinyMCE.Blazor",
+      "RelativePath": "TinyMce.Blazor.lib.module.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\David\\.nuget\\packages\\tinymce.blazor\\1.0.4\\staticwebassets\\TinyMce.Blazor.lib.module.js"
+    },
     {
       "Identity": "C:\\Users\\David\\RiderProjects\\SesterDemoProject\\DemoProducts\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DemoProducts.styles.css",
       "SourceId": "DemoProducts",
