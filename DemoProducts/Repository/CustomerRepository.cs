@@ -17,7 +17,7 @@ public class CustomerRepository : ICustomerRepository
         _mapper = mapper;
     }
 
-    public async Task<CustomerDto> Create(CustomerDto objDto)
+    public async Task<CustomerDto> CreateAsync(CustomerDto objDto)
     {
         var customer = _mapper.Map<CustomerDto, Customer>(objDto);
 
@@ -27,7 +27,7 @@ public class CustomerRepository : ICustomerRepository
         return _mapper.Map<Customer, CustomerDto>(addedCustomer.Entity);
     }
 
-    public async Task<int> Update(CustomerDto objDto)
+    public async Task<int> UpdateAsync(CustomerDto objDto)
     {
         var objFromDb = await _db.Customers.FirstOrDefaultAsync(u => u.Id == objDto.Id);
         
@@ -46,7 +46,7 @@ public class CustomerRepository : ICustomerRepository
         return await _db.SaveChangesAsync();
     }
 
-    public async Task<int> Delete(int id)
+    public async Task<int> DeleteAsync(int id)
     {
         var obj = await _db.Customers.FirstOrDefaultAsync(u => u.Id == id);
 
@@ -57,7 +57,7 @@ public class CustomerRepository : ICustomerRepository
         return await _db.SaveChangesAsync();
     }
 
-    public async Task<CustomerDto> Get(int id)
+    public async Task<CustomerDto> GetAsync(int id)
     {
         var obj = await _db.Customers.FirstOrDefaultAsync(u => u.Id == id);
 
@@ -67,7 +67,7 @@ public class CustomerRepository : ICustomerRepository
         return _mapper.Map<Customer, CustomerDto>(obj);
     }
 
-    public async Task<IEnumerable<CustomerDto>> GetAll()
+    public async Task<IEnumerable<CustomerDto>> GetAllAsync()
     {
         return _mapper.Map<IEnumerable<Customer>, IEnumerable<CustomerDto>>(_db.Customers);
     }

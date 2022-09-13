@@ -1922,19 +1922,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LOFT\\.nuget\\packages\\": {}
+    "C:\\Users\\David\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\DemoProducts.csproj",
+      "projectUniqueName": "C:\\Users\\David\\RiderProjects\\SesterDemoProject\\DemoProducts\\DemoProducts.csproj",
       "projectName": "DemoProducts",
-      "projectPath": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\DemoProducts.csproj",
-      "packagesPath": "C:\\Users\\LOFT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LOFT\\RiderProjects\\SesterDemoProject\\DemoProducts\\obj\\",
+      "projectPath": "C:\\Users\\David\\RiderProjects\\SesterDemoProject\\DemoProducts\\DemoProducts.csproj",
+      "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\David\\RiderProjects\\SesterDemoProject\\DemoProducts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LOFT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2005,7 +2005,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

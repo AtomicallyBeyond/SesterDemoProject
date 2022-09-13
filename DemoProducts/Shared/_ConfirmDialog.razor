@@ -1,0 +1,40 @@
+<div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">@HeaderTitle</h5>
+            </div>
+            
+            <div class="modal-body">
+                @BodyMessage
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" @onclick="() => HandleButtonClick(true)" class="btn btn-primary">@PrimaryButtonTitle</button>
+                <button type="button" @onclick="() => HandleButtonClick(false)" class="btn btn-secondary">@SecondaryButtonTitle</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@code {
+
+    [Parameter]
+    public EventCallback<bool> PrimaryButtonClicked { get; set; }
+
+    [Parameter]
+    public string HeaderTitle { get; set; }
+    [Parameter]
+    public string BodyMessage { get; set; }
+    [Parameter]
+    public string PrimaryButtonTitle { get; set; }
+    [Parameter]
+    public string SecondaryButtonTitle { get; set; }
+
+    private async Task HandleButtonClick(bool isPrimaryClicked)
+    {
+        PrimaryButtonClicked.InvokeAsync(isPrimaryClicked);
+    }
+
+}

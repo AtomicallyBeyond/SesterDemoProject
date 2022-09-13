@@ -8,53 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DemoProducts
 build_property.RootNamespace = DemoProducts
-build_property.ProjectDir = C:\Users\LOFT\RiderProjects\SesterDemoProject\DemoProducts\
+build_property.ProjectDir = C:\Users\David\RiderProjects\SesterDemoProject\DemoProducts\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\LOFT\RiderProjects\SesterDemoProject\DemoProducts
+build_property.MSBuildProjectDirectory = C:\Users\David\RiderProjects\SesterDemoProject\DemoProducts
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/App.razor]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/Pages/Customers.razor]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/Pages/Customers.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/Pages/Index.razor]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/Shared/SurveyPrompt.razor]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/Shared/_CustomerDialog.razor]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/Shared/_ConfirmDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9Db25maXJtRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/Shared/_CustomerDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9DdXN0b21lckRpYWxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/_Imports.razor]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/Shared/MainLayout.razor]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-tz4kyq0a2u
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/Shared/NavMenu.razor]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9ac9yctijk
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/Pages/Error.cshtml]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/Pages/_Host.cshtml]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOFT/RiderProjects/SesterDemoProject/DemoProducts/Pages/_Layout.cshtml]
+[C:/Users/David/RiderProjects/SesterDemoProject/DemoProducts/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -2,8 +2,8 @@
 @using Microsoft.AspNetCore.Components
 @using DemoProducts.Data
 
-@inject ICustomerRepository _customerRepository
-@inject NavigationManager _navigationManager
+@inject ICustomerRepository CustomerRepository
+@inject NavigationManager NavigationManager
 
 <div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
     <div class="modal-dialog">
@@ -122,7 +122,7 @@
     {
         IsLoading = true;
         StateHasChanged();
-        Customer = await _customerRepository.Get(Id);
+        Customer = await CustomerRepository.GetAsync(Id);
         IsLoading = false;
         StateHasChanged();
     }
@@ -132,12 +132,12 @@
         if (Customer.Id == 0)
         {
     //create
-            await _customerRepository.Create(Customer);
+            await CustomerRepository.CreateAsync(Customer);
         }
         else
         {
     //update
-            await _customerRepository.Update(Customer);
+            await CustomerRepository.UpdateAsync(Customer);
         }
         await ModalCancel();
     }
